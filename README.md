@@ -14,3 +14,7 @@ Another way to install this package is using of the Atom's package manager from 
 ```bash
 $ apm install language-b
 ```
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/baleyko/atom-language-b/blob/master/LICENSE.md) for more details.
