@@ -1,0 +1,33 @@
+{
+  "name": "language-b",
+  "description": "Syntax highlighting for the B language",
+  "version": "0.1.0",
+  "author": {
+    "name": "Valerii Baleiko",
+    "email": "baleyko@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/baleyko/atom-b-syntaxt-highlighting",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baleyko/atom-b-syntaxt-highlighting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zargony/atom-b-syntaxt-highlighting/issues"
+  },
+  "repository": "https://github.com/atom/language-b",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "b",
+    "blang",
+    "b language",
+    "b programming",
+    "b coding",
+    "b development"
+  ]
+}
