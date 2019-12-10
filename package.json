@@ -7,17 +7,14 @@
     "email": "baleyko@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/baleyko/atom-b-syntaxt-highlighting",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/baleyko/atom-b-syntaxt-highlighting.git"
-  },
+  "homepage": "https://github.com/baleyko/atom-language-b",
+  "repository": "https://github.com/baleyko/atom-language-b.git",
   "bugs": {
-    "url": "https://github.com/zargony/atom-b-syntaxt-highlighting/issues"
+    "url": "https://github.com/baleyko/atom-language-b/issues"
   },
-  "repository": "https://github.com/atom/language-b",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": "*",
+    "node": "*"
   },
   "categories": [
     "Programming Languages"
