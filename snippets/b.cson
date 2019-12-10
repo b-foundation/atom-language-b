@@ -1,0 +1,40 @@
+".source.b":
+  "auto-statement":
+    "prefix": "auto"
+    "body": "auto $1;$2"
+  "extrn-statement":
+    "prefix": "extrn"
+    "body": "extrn $1;$2"
+  "break-operator":
+    "prefix": "break"
+    "body": "break;$1"
+  "goto-operator":
+    "prefix": "goto"
+    "body": "goto $1;$2"
+  "if-block":
+    "prefix": "if"
+    "body": "if ($1) {$2}$3"
+  "else-if-block-section":
+    "prefix": "elseif"
+    "body": " else if ($1) {$2}$3"
+  "else-block-section":
+    "prefix": "else"
+    "body": " else {$1}$2"
+  "switch-block":
+    "prefix": "switch"
+    "body": "switch ($1) {$2}$3"
+  "case-block-section":
+    "prefix": "case"
+    "body": "case $1:$2break;$3"
+  "default-block-section":
+    "prefix": "default"
+    "body": "default:$1"
+  "while":
+    "prefix": "while"
+    "body": "while ($1) {$2}$3"
+  "function-declaration":
+    "prefix": "function"
+    "body": "$1($2) {$3}$4"
+  "return-statement":
+    "prefix": "return"
+    "body": "return ($1);"
