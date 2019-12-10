@@ -1,0 +1,8 @@
+".source.b":
+  "editor":
+    "commentStart": "/*"
+    "commentEnd": "*/"
+".source.b:not(.string:not(.comment))":
+  "editor":
+    "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\\\"']*|\\([^)\\\"']*|\\[[^\\\\]\\\"']*|\\:)$"
+    "decreaseIndentPattern": "^((?!.*?\\/\\\\*).*\\\\*\\/)?\\s*[\\)\\}\\]].*$"
